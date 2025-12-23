@@ -58,6 +58,7 @@ El dataset maestro fue construido unificando tres fuentes con diferentes frecuen
 ---
 
 ## 🛠️ Estructura del Repositorio
+'''bash   
    ├── data/ # Archivos CSV crudos y procesados
    ├── notebooks/
    │ ├── 01_ETL_EDA.ipynb # Limpieza, Fusión y Análisis Exploratorio
@@ -65,7 +66,7 @@ El dataset maestro fue construido unificando tres fuentes con diferentes frecuen
    ├── results/ # Gráficos generados
    ├── README.md # Documentación del proyecto
    └── requirements.txt # Librerías necesarias
-
+'''
 ## Requerimientos
 
 ## 🚀 Cómo ejecutar este proyecto
