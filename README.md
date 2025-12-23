@@ -58,13 +58,13 @@ El dataset maestro fue construido unificando tres fuentes con diferentes frecuen
 ---
 
 ## 🛠️ Estructura del Repositorio
-├── data/ # Archivos CSV crudos y procesados
-├── notebooks/
-│ ├── 01_ETL_EDA.ipynb # Limpieza, Fusión y Análisis Exploratorio
-│ └── 02_Modeling.ipynb # Entrenamiento, Fallos y Solución final (XGBoost)
-├── results/ # Gráficos generados
-├── README.md # Documentación del proyecto
-└── requirements.txt # Librerías necesarias
+   ├── data/ # Archivos CSV crudos y procesados
+   ├── notebooks/
+   │ ├── 01_ETL_EDA.ipynb # Limpieza, Fusión y Análisis Exploratorio
+   │ └── 02_Modeling.ipynb # Entrenamiento, Fallos y Solución final (XGBoost)
+   ├── results/ # Gráficos generados
+   ├── README.md # Documentación del proyecto
+   └── requirements.txt # Librerías necesarias
 
 ## Requerimientos
 
