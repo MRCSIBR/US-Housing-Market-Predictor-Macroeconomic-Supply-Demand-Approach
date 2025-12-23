@@ -58,3 +58,24 @@ El dataset maestro fue construido unificando tres fuentes con diferentes frecuen
 ---
 
 ## 🛠️ Estructura del Repositorio
+├── data/ # Archivos CSV crudos y procesados
+├── notebooks/
+│ ├── 01_ETL_EDA.ipynb # Limpieza, Fusión y Análisis Exploratorio
+│ └── 02_Modeling.ipynb # Entrenamiento, Fallos y Solución final (XGBoost)
+├── results/ # Gráficos generados
+├── README.md # Documentación del proyecto
+└── requirements.txt # Librerías necesarias
+
+## Requerimientos
+
+## 🚀 Cómo ejecutar este proyecto
+
+1.  Clonar el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/us-housing-predictor.git
+    ```
+2.  Instalar dependencias:
+    ```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly
+    ```
+3.  Ejecutar los notebooks en orden numérico.
